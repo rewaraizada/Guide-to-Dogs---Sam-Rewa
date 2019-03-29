@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <link href="style.css" rel="stylesheet" type="text/css"> <!--Link to stylecss spage-->
+
+<!--Below till line 87 is for links on top of page -->
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #330000;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a href="file:///Users/rewa/Desktop/Guide%20to%20Dogs%20CS%20Project/Dogss.html">Home</a></li>
+  <li><a href="file:///Users/rewa/Desktop/Guide%20to%20Dogs%20CS%20Project/Typesofdogs.html">Types of Dogs</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Life With Dogs</a>
+    <div class="dropdown-content">
+      <a href="file:///Users/rewa/Desktop/Guide%20to%20Dogs%20CS%20Project/DogTraining.html">Dog Training</a>
+      <a href="file:///Users/rewa/Desktop/Guide%20to%20Dogs%20CS%20Project/DogPsych.html">Dog Psychology</a>
+      <a href="file:///Users/rewa/Desktop/Guide%20to%20Dogs%20CS%20Project/DogNutrition.html">Dog Nutrition</a>
+      <a href="file:///Users/rewa/Desktop/Guide%20to%20Dogs%20CS%20Project/DogHealth.html">Dog Health</a>
+      <a href="file:///Users/rewa/Desktop/Guide%20to%20Dogs%20CS%20Project/DogSafety.html">Dog Safety</a>
+
+    </div>
+  </li>
+</ul>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<center>
+
+
+<div class="header">
+
+<!--Below is background image and text shadow effects -->
+  <center><h1><font face="chalkduster" color="slateblue">GUIDE TO DOGS</font></h1></center>
+
+<style>
+h1 {
+  text-shadow: 2px 2px 5px lawngreen;
+}
+</style>
+
+
+<style>
+
+   div.header {
+     padding: 10px 25px;
+     border: 3px solid #fff;
+     border-radius: 30px;
+     margin-top: 20px;
+     display: inline-block;
+     font-size: 200%
+   }
+   </style>
+
+</div>
+<!--Below is information to keep background image fixed and information for box on the website guidelines-->
+<style>
+
+body {
+  background-image: url("DogHome.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+</center>
+</style>
+
+<div class="pink"><p>This webpage created by <font face="Impact" color="red">Sam W. and Rewa R.</font> features the guide to helping you and your dog <font face="Impact" color="blue">live the happiest life together!</font>
+Here you will find tips and advice for what to <font face="Impact" color="green">feed</font> your dog, how to keep your dog in the <font face="Impact" color="purple">best health</font>, how to keep your dog <font face="Impact" color="orange">safe</font>, <font face="Impact" color="green">training tips</font> every dog should know, an insight to a <font face="Impact" color="red">dogs psychology</font>, and a list of <font face="Impact" color="blue">types of dogs</font>!
+Starting exploring on the top of the webpage! Scroll down to see a short slideshow of everything featured in this website to match your needs.</p></div>
+<style>
+div.pink {
+  background-color: lightgrey;
+  width: 900px;
+  border: 25px solid lawngreen;
+  padding: 25px;
+  margin: 25px;
+}
+</style>
+
+<br>
+<br>
+
+<hr>
+
+<!--meta tag used here to create slideshow-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Impact;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+
+.cursor {
+  cursor: pointer;
+}
+
+
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: red;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+<body>
+
+<!--image size and picture numbers for slideshow-->
+
+<h2 style="text-align:center">Website Preview Slideshow</h2>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="AS.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="Boxer.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="Finnish.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="Redbone.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="Taiwan.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="Vizsla.png" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="AS.png" style="width:100%" onclick="currentSlide(1)" alt="TYPES OF DOGS: A-Z">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Boxer.png" style="width:100%" onclick="currentSlide(2)" alt="DOG TRAINING: EVERY DOG SHOULD KNOW">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Finnish.png" style="width:100%" onclick="currentSlide(3)" alt="DOG PSYCHOLOGY: HOW THEIR BRAIN FUNCTIONS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Redbone.png" style="width:100%" onclick="currentSlide(4)" alt="DOG NUTRITION: WHAT YOUR DOG SHOULD EAT IN A DAY">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Taiwan.png" style="width:100%" onclick="currentSlide(5)" alt="DOG HEALTH: TOP TIPS">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="Vizsla.png" style="width:100%" onclick="currentSlide(6)" alt="DOG SAFETY: GOING THROUGH THE DAY">
+    </div>
+  </div>
+</div>
+
+<!--Javascript usage in here, where we used w3schools as a guideline-->
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+  <p>©All Rights Reserved</p>
+</body>
+
+</html>
